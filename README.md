@@ -7,7 +7,9 @@ This web application project is a homework for *100 Days of Code: The Complete P
 
 ### Usage
 
-* python3 hungry.py -s SEARCH_KEYWORD -n NUMBERS_OF_RECIPES_TO_SAVE
+```
+python3 hungry.py -s SEARCH_KEYWORD -n NUMBERS_OF_RECIPES_TO_SAVE
+```
 
 ### Reference
 

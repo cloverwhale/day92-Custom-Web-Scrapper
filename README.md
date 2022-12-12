@@ -14,3 +14,4 @@ python3 hungry.py -s SEARCH_KEYWORD -n NUMBERS_OF_RECIPES_TO_SAVE
 ### Reference
 
 * [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* [Argparse Tutorial](https://docs.python.org/zh-tw/3/howto/argparse.html)

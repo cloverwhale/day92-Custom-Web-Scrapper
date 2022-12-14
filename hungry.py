@@ -41,7 +41,7 @@ class WebScrapper:
             recipe_page = self.get_request(url=item, params={"print":""})
             recipe_page_soup = bs(recipe_page.text, HTML_PASER)
             article = recipe_page_soup.find("article", id="allrecipes-article_1-0")
-            title = article.h1.extract()
+            title = article.select("h1")[0]
             subtitle = article.select("p#article-subheading_2-0")[0]
             recipie = article.select("div#article-content_1-0")[0]
 
